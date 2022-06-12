@@ -3,7 +3,7 @@ package thread;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
-
+//https://www.java67.com/2015/06/how-to-use-cyclicbarrier-in-java.html
 /** * Java Program to demonstrate how to use CyclicBarrier, * Its used when number of threads * needs to wait for each other before starting again. * * @author Javin Paul */
 public class CyclicBarrierDemo {
     public static void main(String args[]) throws InterruptedException, BrokenBarrierException {
