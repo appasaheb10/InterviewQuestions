@@ -1,6 +1,5 @@
 package core.java;
-
-public class Child extends Parent {
+public class Child extends core.java.Parent {
     public void run(){
         System.out.println("Child run method");
         walk();

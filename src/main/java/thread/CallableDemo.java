@@ -22,9 +22,9 @@ public class CallableDemo  implements Callable {
 
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        Runnable r1 = () ->
+        /*Runnable r1 = () ->
                 System.out.println("My Runnable");
-        System.out.println(Thread.currentThread().getName());
+        System.out.println(Thread.currentThread().getName());*/
         //r1.run();
 
         FutureTask futureTask1 = new FutureTask(new CallableDemo());
