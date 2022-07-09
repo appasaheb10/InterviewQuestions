@@ -80,6 +80,7 @@ public class Coding {
         coding.put("abc", "5", 3f);
 
         coding.get(1f, "abc");
+        coding.get(1.2f, "abc");
         coding.get(2f, "abc");
         coding.get(2.15f, "abc");
         coding.get(2.3f, "abc");
